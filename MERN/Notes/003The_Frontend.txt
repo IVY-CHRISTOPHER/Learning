@@ -1,0 +1,14 @@
+The Frontend (Client)
+
+Powered by React
+
+React SPA (Single Page Application)
+Whenever something needs to be drawn on the screen or re-rendered, React will handle that
+Routes (With react-router-dom)
+    Renders React components based on the path the user enters into the URL
+    The feeling of having multiple pages, but its just re-rendering
+State Management (Hooks, redux)
+    Data that influences what is shown on the screen
+    Custom Hooks
+Components + Styling (CSS)
+    Utility / UI Components

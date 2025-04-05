@@ -1,0 +1,45 @@
+
+REST API
+    VERB | URL
+
+    API endpoints (Up to the dev what endpoints to use)
+        POST  /post 
+        GET   /posts
+        GET   /posts/:postId
+    
+    Stateless and Decoupled from any frontend 
+    Since this API is decoupled it can talk to any frontend you want to connect to it (e.g. Android or IOS application)
+    
+
+HTTP verbs
+    GET
+        Get a Resource from the server
+    POST
+        Post a resource to the server (i.e. Create or append a resource)
+    PUT
+        Put a resource onto the Server (i.e. Create or overwrite a resource)
+    PATCH
+        Update parts of an existing resource on the server
+    DELETE
+        Delete a resource on the server
+    OPTIONS (never send on ourselves)
+        Determine whether a follow-up request is allowed (send Automatically)
+
+GraphQL API
+    Query expression identifies a resource and action
+    API is stateless and Decoupled
+    popular but less common because you need to learn the query language
+    POST /graphql (Often then endpoint but not required)
+        EXAMPLE
+            {   
+                query{
+                    user{
+                        name
+                        age
+                    }
+                }
+            }
+        Operation types (query, mutation, subscription)
+        Operation Endpoint (user)
+        Requests (name / age)
+

@@ -1,0 +1,38 @@
+What is MERN?
+
+M - MongoDB - Database Solution
+E - Express - Node.js Framework
+R - React.js - Browser-Side JavaScript Library
+N - Node.js - Server-Side JavaScript Runtime
+
+What is React?
+React is a client side (Browser) Library Which allows you to build highly reactive user interfaces
+Controls what the user sees and how they interact with it 
+Render UI with Dynamic Data 
+Handle User Input
+Communicates with backend services
+(Front-End)
+
+Provides a (Mobile App) Like experience
+
+What is Node?
+A Server-Side runtime: JavaScript on a the server-side
+Listen to Request and send responses
+Execute Server-side Logic
+Interact is Databases and Files
+An alternative to PHP, Ruby of Rails, Java, ECT
+is rarely used standalone!
+
+What is Express?
+A Node Framework which simplifies writing server-side code and Logic
+Based on Node, offers same functionalities
+Middleware-based: Funnel Requests through Functions
+Includes Routing, View-rendering and More
+simplifies the usage of Node
+
+What is MongoDB?
+A NoSQL Database which stores "Documents" in "Collections" (instead of "Records" in "Tables" as in SQL)
+Store application data (users, products, ect)
+Enforces no Data Schema or Relations
+Easily connected to Node/ Express (Not to React!)
+A powerful database which can easily be integrated into a Node/ Express environment

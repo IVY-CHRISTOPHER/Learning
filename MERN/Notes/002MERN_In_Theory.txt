@@ -1,0 +1,23 @@
+How MERN Works Together
+
+How to connect React + Node, Express, MongoDB
+Different Approaches
+
+"The Big Picture"
+    React Client (Browser) - Presentation/ UI
+    React is responsible for what the user SEES
+    React is based on JavaScript
+
+    Server
+    Node.js/ Express.js (Uses JavaScript code that is detached from the client (users) machine)
+    Reachable by anyone
+    Server and Client connect with AJAX (Request and Responses)
+    Triggered from Client side and sent to Server
+    Sent in JSON format (there are other formats but JSON is the most used)
+
+    Database Server
+    Runs the MongoDB engine
+    Database server can run on the SAME machine as the Node/ Express machine or a DIFFERENT machine it DOESN'T MATTER
+    Data Storage NOT File Storage (Product, price of a product, name of users)
+    Node/Express Server Communicates with this server, NEVER send requests from the client straight to this server. CREDENTIALS WOULD BE EXPOSED HUGE SECURITY ISSUE
+    

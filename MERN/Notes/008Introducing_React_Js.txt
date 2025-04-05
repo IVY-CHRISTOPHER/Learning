@@ -1,0 +1,7 @@
+INTRODUCING REACT.js
+
+A JavaScript Library* For Building User interfaces
+Used in applications for WHAT THE USER SEES, React does not run on a server, react does not communicate with Databases
+Following a Declarative Approach: You define the result, not the steps that lead to the result
+Imperative Approach (Normal JS): You define all the steps to achieve the result
+You define COMPONENTS and build your UI with these COMPONENTS

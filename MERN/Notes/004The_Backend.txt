@@ -1,0 +1,20 @@
+The Backend (Server)
+Decoupled Ends
+    Frontend (React)
+    Backend (Node/ Express)
+    Database (MongoDB)
+
+Backend == API (Application Programming Interface)
+    Build a Node/ Express application with defined entry points (ways of communication)
+    If the client tries to define a point that does'nt exist the user will get an error
+
+REST API
+    REST (Representational State Transfer)
+    The Most common API
+    uses a combination of URLs or Paths and HTTP verbs (GET, POST, PATCH, DELETE (CRUD, (CREATE, READ, UPDATE, DELETE))) for different actions
+    Execute Code on the Server
+
+GraphQL API
+    ONE URL AND ONE HTTP VERB (typically a POST request)
+    accepts query commands
+    Execute Code on the Server

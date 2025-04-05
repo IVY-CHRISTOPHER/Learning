@@ -1,0 +1,14 @@
+Two ways of connecting Node + React
+
+One server/computer that hosts Node API and React SPA
+    Node (Express) API handles incoming requests
+    Requests not targeting API routes return React SPA
+    Data is exchanged between React App and Node API in JSON format
+
+Two Separated Servers
+    One server to serve our react frontend and one server that hosts the API
+    Node (Express) API handles incoming requests
+    React SPA served on separate static hosts
+    Data is exchanged between React app and Node API in JSON format
+
+Often you want to use separate Servers so you don't overload anything and it always runs smoothly
